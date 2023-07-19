@@ -32,6 +32,11 @@
       grid-template-columns: 1fr;
       width: 100%;     
      }
+     .games-genre{
+      /* display: flex; */
+      grid-template-columns: repeat(3, 2fr);
+      flex-wrap: wrap;
+     }
  
   }
  

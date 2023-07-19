@@ -227,5 +227,34 @@
   
 }
 .game-card-3:hover{
-  cursor: text ;
+  color: red ;
+  
+}
+/* games genre */
+.games-genre{
+display: grid;
+/* position: relative; */
+grid-template-columns: repeat(5, 1fr);
+/* text-align: center;
+justify-content: center;
+align-items: center;
+
+
+text-align: center; */
+margin-left: 100px;
+gap: 15px;
+flex-wrap: wrap;
+}
+.genre-name{
+ display: flex;
+ height: 80px;
+ width: 262px;
+ border-radius: 50px;
+background: #FFF;
+/* padding: 20px; */
+   color: #0B0223;
+    font-size: 17px;
+    font-weight: 600;
+    gap: 10px;
+    
 }
