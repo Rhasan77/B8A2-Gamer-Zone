@@ -54,8 +54,7 @@
       flex-wrap: wrap;
       } 
       .footer-section{
-       
-
+       flex-direction: column;
       }
      
      
