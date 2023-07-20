@@ -3,11 +3,11 @@
   .nav-items-container
   {
     flex-direction: column;
-    
+  
   }
   .nav-items-container{
     width: 100%;
-    gap: 40px;
+   
     margin-right: 20px;
   }
   /* banner section */
@@ -32,11 +32,33 @@
       grid-template-columns: 1fr;
       width: 100%;     
      }
-     .games-genre{
-      /* display: flex; */
-      grid-template-columns: repeat(3, 2fr);
+      .child-1,
+      .child-2 {
+        
+        
+       display: grid;
+      
+      flex-direction: row;
+      /* align-items: center; */
+        grid-template-columns: repeat(3,1fr);
+        
+       
+      }
+      .parent-button{
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: repeat(3,1fr);
+      }
+       .btn img{
+        
       flex-wrap: wrap;
-     }
+      } 
+      .footer-section{
+       
+
+      }
+     
+     
  
   }
  
